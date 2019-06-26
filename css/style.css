@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: transparent;
+}
+
+.menu>.link {
+    margin-left: 24px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background: url(..img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 24px;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: black;
+    color: white;
+}
+
+.btn-white {
+    color: black;
+    background: white;
+    border-color: black;
+    border-width: 2px;
+}
+
+.about {
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+
+.products {
+    margin-top: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.about-text {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.subtitle {
+    opacity: 0.75;
+    margin-top: -6px;
+}
+
+.card>p {
+    font-weight: 300;
+}
+
