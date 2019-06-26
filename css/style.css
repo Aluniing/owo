@@ -81,8 +81,6 @@ body {
 .btn-white {
     color: black;
     background: white;
-    border-color: black;
-    border-width: 2px;
 }
 
 .about {
