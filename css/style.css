@@ -9,7 +9,7 @@ body {
     position: fixed;
     height: 80px;
     width: 100%;
-    background: transparent;
+    background: black;
 }
 
 .menu>.link {
